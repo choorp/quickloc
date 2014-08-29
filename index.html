@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>QuickLoc</title>
+  <link rel="icon" type="image/png" href="images/icon-128.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <link href="style/style.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQC6ad0_y2_5OlF20V1-8B7fIH7kL1yjQ"></script>
+</head>
+<body>
+<div class="top-overlay">
+  <div class="box-third">
+    <div class="box-label">Pitch/Roll</div>
+    <div class="box-value" id="pitch">00/00</div>
+  </div>
+  <div class="box-third">
+    <div class="box-label">Heading</div>
+    <div class="box-value" id="heading">N</div>
+  </div>
+  <div class="box-third">
+    <div class="box-label">Heading(&deg;)</div>
+    <div class="box-value" id="heading-deg">0</div>
+  </div>
+</div>
+
+<div id="map-canvas" class="map"></div>
+
+<div class="bottom-overlay">
+  <div class="box-half">
+    <div class="box-label">Latitude</div>
+    <div class="box-value" id="lat">0.0000</div>
+  </div>
+  <div class="box-half">
+    <div class="box-label">Longitude</div>
+    <div class="box-value" id="long">0.0000</div>
+  </div>
+  <div class="box-third">
+    <div class="box-label">Accuracy</div>
+    <div class="box-value" id="accuracy">0</div>
+  </div>
+  <div class="box-third">
+    <div class="box-label">Speed</div>
+    <div class="box-value" id="speed">0</div>
+  </div>
+  <div class="box-third">
+    <div class="box-label">Altitude</div>
+    <div class="box-value" id="altitude">0</div>
+  </div>
+</div>
+
+<script src="scripts/location.js"></script>
+
+</body>
+</html>

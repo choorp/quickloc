@@ -1,0 +1,19 @@
+{
+  "name": "QuickLoc",
+  "description": "Super simple app that gives you quick access to location and device orientation information.",
+  "version": "0.0.5",
+  "launch_path": "/index.html",
+  "icons": {
+    "256": "/images/icon-256.png",
+    "128": "/images/icon-128.png"
+  },
+  "developer": {
+    "name": "Garrett Downs",
+    "url": "http://github.com/choorp"
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "Needed to find your location."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+body {
+  width: 100%;
+  height: inherit;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  background-color: #ddd;
+}
+.top-overlay,
+.bottom-overlay {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding-top: 7px;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+}
+.top-overlay {
+  top: 0;
+  height: 60px;
+}
+.bottom-overlay {
+  bottom: 0;
+  height: 125px;
+
+}
+
+.box-half,
+.box-third {
+  display: inline-block;
+  height: 60px;
+}
+.box-half {
+  width: 48%;
+  margin-bottom: 5px;
+}
+.box-third {
+  width: 31%;
+}
+
+.box-label {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+.box-value {
+  font-size: 24px;
+  color: #fff;
+}
